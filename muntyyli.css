@@ -1,0 +1,46 @@
+h1 {color: white;}
+h2 {color: white;}
+span {font-weight: bold;}
+span.vihreaspan {color: rgb(0, 250, 33);}
+body {background-color: rgb(37, 189, 156);}
+img {width: 500px;}
+p {color: white;}
+header {background-color: rgb(60, 134, 139);}
+main {background-color: rgb(47, 111, 128);}
+a {color: rgb(34, 105, 163);}
+table,td, th {border: 1px solid rgb(255, 255, 255);}
+table {border-collapse: collapse;}
+table {width: 50%;}
+th, td {height: 50px;}
+th {text-align: left;}
+th {width: 30%;}
+td {width: 30%;}
+th, td {vertical-align: top;}
+th {background-color: rgb(0, 162, 255);}
+th {color: white;}
+tr {background-color: rgba(255, 255, 255, 0.699);}
+th {font-family: Arial, Helvetica, sans-serif;}
+td {font-family: Arial, Helvetica, sans-serif;}
+th, td {padding: 5px;}
+tr.tumma {background-color: rgba(255, 255, 255, 0.377);}
+p, h3, h4, form {margin-left:  20px;} 
+p, h3, h4, form {margin-right: 20px;}
+h1 {text-align: center;}
+h2 {text-align: center;}
+p2 {margin-left: 23px;}
+p2 {color: white;}
+form, ul, ol, footer, aside, h3, h4 {color: white;}
+h1, h2, p, p2, ul, ol, form, footer, aside, h3, h4 {font-family: Arial, Helvetica, sans-serif;}
+.container {display: grid}
+footer {background-color:  rgb(60, 134, 139) ;}
+footer {text-align: center;}
+aside {background-color:  rgb(60, 134, 139) ;}
+
+
+:root {
+    --vaalea: #f4f4f4;
+}
+
+body {
+    background: var(--vaalea);
+}
