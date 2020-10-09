@@ -26,10 +26,79 @@
           ;
         }
         </style>
+        <style>h1 {
+          color: white;
+          text-shadow: 2px 2px 4px #000000;
+        }</style>
+        <style>
+        #grad1 {
+          height: 200px;
+          background-color: rgb(0, 247, 255); /* For browsers that do not support gradients */
+          background-image: linear-gradient(to bottom right, rgb(0, 255, 234), rgb(0, 140, 255));
+        }
+        </style>
+        <style>
+          div {
+              width: 200px;
+              height: 100px;
+              background-color: rgb(37, 133, 120);
+              animation-name: example;
+              animation-duration: 4s;
+            }
+            
+            @keyframes example {
+              from {background-color: rgb(12, 106, 129);}
+              to {background-color: rgb(0, 255, 255);}
+            }
+            </style>
+            <style>
+              div {
+                width: 300px;
+                height: 100px;
+                background-color: rgb(33, 199, 191);
+                border: 1px solid black;
+              }
+              
+              div#myDiv {
+                -ms-transform: rotate(5deg); /* IE 9 */
+                transform: rotate(5deg); /* Standard syntax */
+              }
+              </style>
+              <style> 
+                div#myDiv2 {
+                  width: 100px;
+                  height: 100px;
+                  background: rgb(66, 242, 248);
+                  transition-property: width;
+                  transition-duration: 2s;
+                  
+                }
+                
+                div#myDiv2:hover {
+                  width: 300px;
+                }
+                </style>
+                <style>
+                  div.relative {
+                    position: relative;
+                    left: 30px;
+                    border: 3px solid #73AD21;
+                    margin-right: 10px;
+                  }
+                  </style>
+                  <style>
+                    div.relative {
+                      position: relative;
+                      left: 30px;
+                      border: 3px solid #73AD21;
+                      margin-right: 10px;
+                    }
+                    </style>
+        <div id="grad1"></div>
 
-</head>
 
-<body>
+
+
     <header>
         <nav>
         <div class="flex-container">
@@ -43,41 +112,14 @@
     </header>
     <main>
     <section>
-        <style>h1 {
-            color: white;
-            text-shadow: 2px 2px 4px #000000;
-          }</style>
-          <style>
-          #grad1 {
-            height: 200px;
-            background-color: rgb(0, 247, 255); /* For browsers that do not support gradients */
-            background-image: linear-gradient(to bottom right, rgb(0, 255, 234), rgb(0, 140, 255));
-          }
-          </style>
-          <div id="grad1"></div>
-          </style>
-          </head>
-          <body>
+          
     <h1>Portfolio</h1>
     <p>Tässä on portfolioni, jossa kerron itsestäni, työkokemuksestani ja koulutuksestani.
-        <style>
-        div {
-            width: 200px;
-            height: 100px;
-            background-color: rgb(37, 133, 120);
-            animation-name: example;
-            animation-duration: 4s;
-          }
-          
-          @keyframes example {
-            from {background-color: rgb(12, 106, 129);}
-            to {background-color: rgb(0, 255, 255);}
-          }
-          </style>
+        
     </p>
     </section>
     <aside>
-     <img src="yeschad.jpg" style="float:right;width: 25%;padding-right: 10px;height: 400px;">
+     <img src="yeschad.jpg" alt="yeschad" style="float:right;width: 25%;padding-right: 10px;height: 400px;">
     </aside>
     <article>
     
@@ -112,50 +154,18 @@
       <li>Synt. 05.10.2002</li>
   </ul>
 
-    <style>
-        div {
-          width: 300px;
-          height: 100px;
-          background-color: rgb(33, 199, 191);
-          border: 1px solid black;
-        }
-        
-        div#myDiv {
-          -ms-transform: rotate(5deg); /* IE 9 */
-          transform: rotate(5deg); /* Standard syntax */
-        }
-        </style>
+    
         <div id="myDiv">
             Rotatade
             </div>
-            <style> 
-                div#myDiv2 {
-                  width: 100px;
-                  height: 100px;
-                  background: rgb(66, 242, 248);
-                  transition-property: width;
-                  transition-duration: 2s;
-                  
-                }
-                
-                div#myDiv2:hover {
-                  width: 300px;
-                }
-                </style>
+            
                 <div id="myDiv2"></div>
     <i class="fa fa-car"></i>
     <i class="fa fa-heart"></i>
     </article>
-    <style>
-        div.relative {
-          position: relative;
-          left: 30px;
-          border: 3px solid #73AD21;
-          margin-right: 10px;
-        }
-        </style>
-        </head>
-        <body>
+    
+      
+
         
         <h4>position: relative;</h4>
         
@@ -166,12 +176,12 @@
         </div>
     
     <form>
-        <label for="email"> E-mail </label>
+        <label for="email"> Sähköposti </label>
         <input type="email"> <br>
         <label for="password"> Salasana </label>
         <input type="password"> <br>
-        <input type="checkbox" name="ika" value="18">
-        <label for="ika"> Olen 18-Vuotias </label> <br>
+        <input type="checkbox" name="ikä" value="18">
+        <label for="ikä"> Olen 18-vuotias </label> <br>
         <input type="color"> 
         <label for="color"> IHONVÄRISI </label> <br>
         <label for="text"> Viestisi </label>
@@ -183,7 +193,7 @@
     
 
     <footer>Copyright © 2020 Joni Merisalo. All Rights Reserved.</footer>
-</body>
+
 </main>
 
 </html>
@@ -197,7 +207,7 @@
     <div class="div5"> </div>
 </div>-->
 
-.<!--parent {
+<!--parent {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
